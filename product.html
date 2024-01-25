@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katalog Buket Bunga</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header{
+            position: fixed;
+            top: 0; left: 0; right: 0;
+            background: #fff;
+            padding: 2 rem 9%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            z-index: 1000;
+            box-sizing: 0 .5rem 1 rem rgba(0,0,0,.1);
+        }
+
+        header .navbar a{
+            font-size: 2rem;
+            padding: 0 1.5rem;
+            color: #666;
+        }
+        
+        header .navbar a:hover{
+            color:var(--pink)
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .catalog-container {
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .product-card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 15px;
+            padding: 20px;
+            width: 300px;
+        }
+
+        .product-card img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        .product-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .product-description {
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .product-price {
+            color: #e44d26;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#products">products</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+    </nav>
+
+
+    <h2>Katalog Buket Bunga</h2>
+
+
+    <div class="catalog-container">
+        <table>
+            <tr>
+                <td>
+                    <div class="product-card">
+                        <img src="bunga1.jpeg" alt="Buket Bunga 1">
+                        <div class="product-title">Buket Bunga Romantis</div>
+                        <div class="product-description">Gambarkan keindahan cinta dengan buket bunga romantis kami. Kombinasi warna lembut dan aroma bunga-bunga pilihan menciptakan momen yang tak terlupakan.</div>
+                        <div class="product-price">$50.00</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="product-card">
+                        <img src="bunga2.jpeg" alt="Buket Bunga 2">
+                        <div class="product-title">Buket Bunga Elegan untuk Acara Khusus</div>
+                        <div class="product-description">Tambahkan sentuhan elegan pada acara khusus Anda dengan buket bunga kami yang dipilih secara khusus. Desain yang anggun dan bunga-bunga premium menciptakan kesan yang tak terlupakan.</div>
+                        <div class="product-price">$45.00</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="product-card">
+                        <img src="bunga3.jpeg" alt="Buket Bunga 2">
+                        <div class="product-title">Buket Bunga Ceria untuk Kejutan Bahagia</div>
+                        <div class="product-description">Kirim keceriaan dengan buket bunga berwarna-warni ini! Sesuai untuk mengirimkan kejutan bahagia kepada orang tersayang di hari istimewa mereka.</div>
+                        <div class="product-price">$45.00</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="product-card">
+                        <img src="bunga4.jpeg" alt="Buket Bunga 2">
+                        <div class="product-title">Buket Bunga Modern dengan Nuansa Minimalis</div>
+                        <div class="product-description">Untuk mereka yang menghargai keindahan minimalis, buket bunga modern kami memberikan nuansa elegan dengan desain sederhana yang tetap memikat.</div>
+                        <div class="product-price">$45.00</div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="product-card">
+                        <img src="bunga5.jpeg" alt="Buket Bunga 2">
+                        <div class="product-title">Buket Bunga Musim Semi yang Penuh Warna</div>
+                        <div class="product-description">Rasakan keindahan musim semi sepanjang tahun dengan buket bunga penuh warna. Kombinasi bunga-bunga segar menciptakan tampilan yang cerah dan bersemangat.</div>
+                        <div class="product-price">$45.00</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="product-card">
+                        <img src="bunga6.jpeg" alt="Buket Bunga 2">
+                        <div class="product-title">Buket Bunga Klasik yang Abadi</div>
+                        <div class="product-description">Tampilkan keanggunan klasik dengan buket bunga abadi kami. Kombinasi bunga-bunga timeless memberikan sentuhan keindahan yang selalu berkesan.</div>
+                        <div class="product-price">$45.00</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="product-card">
+                        <img src="bunga7.jpeg" alt="Buket Bunga 2">
+                        <div class="product-title">Buket Bunga Mawar Berkualitas Tinggi</div>
+                        <div class="product-description">Pilihlah keindahan yang tak terbantahkan dengan buket bunga mawar berkualitas tinggi kami. Bunga mawar segar yang indah akan menyampaikan pesan cinta Anda dengan sempurna.</div>
+                        <div class="product-price">$45.00</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="product-card">
+                        <img src="bunga8.jpeg" alt="Buket Bunga 2">
+                        <div class="product-title">Buket Bunga Ekspresi Sympathi</div>
+                        <div class="product-description">Ungkapkan simpati dengan buket bunga yang penuh kasih. Desain yang lembut dan bunga-bunga berempati memberikan dukungan dalam saat-saat sulit.</div>
+                        <div class="product-price">$45.00</div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="product-card">
+                        <img src="bunga9.jpeg" alt="Buket Bunga 2">
+                        <div class="product-title">Buket Bunga Unik untuk Penggemar Seni</div>
+                        <div class="product-description">Dapatkan buket bunga yang unik dan kreatif, dirangkai seperti seni rupa bunga. Pilihan warna yang tidak biasa dan desain yang kreatif membuatnya menjadi hadiah yang istimewa.</div>
+                        <div class="product-price">$45.00</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="product-card">
+                        <img src="bunga10.jpeg" alt="Buket Bunga 2">
+                        <div class="product-title">Buket Bunga Mix and Match yang Fleksibel</div>
+                        <div class="product-description">Sesuaikan buket bunga Anda dengan pilihan mix and match kami. Pilih bunga favorit Anda untuk menciptakan buket yang sepenuhnya personal dan unik.</div>
+                        <div class="product-price">$45.00</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="product-card">
+                        <img src="bunga11.jpeg" alt="Buket Bunga 2">
+                        <div class="product-title">Buket Bunga "Eternal Love"</div>
+                        <div class="product-description">Dengan desain yang romantis dan elegan, buket bunga "Eternal Love" merupakan pilihan ideal untuk menyampaikan perasaan cinta yang abadi. Setiap bunga dipilih dengan teliti untuk menciptakan komposisi yang indah dan harmonis. Dengan kombinasi warna yang lembut dan penuh makna, buket ini tidak hanya memberikan keindahan visual tetapi juga menyampaikan pesan cinta yang mendalam. Ideal untuk momen spesial seperti ulang tahun, perayaan ulang tahun pernikahan, atau ketika Anda ingin mengungkapkan cinta tanpa kata-kata.</div>
+                        <div class="product-price">$45.00</div>
+                    </div> 
+                </td>
+                <td>
+                    <div class="product-card">
+                        <img src="bunga12.jpeg" alt="Buket Bunga 2">
+                        <div class="product-title">Buket Bunga "Harmony Blossom"</div>
+                        <div class="product-description">"Harmony Blossom" adalah buket bunga yang menyatu dengan keindahan alam. Dengan kombinasi bunga-bunga segar yang dipilih dengan hati-hati, buket ini menciptakan kesan harmoni dan kedamaian. Desainnya yang natural dan elegan cocok untuk berbagai kesempatan, mulai dari memberikan ucapan selamat, menghibur teman, hingga memberikan sentuhan kehangatan di momen-momen sulit. </div>
+                        <div class="product-price">$45.00</div>
+                    </div>
+                </td>
+            </tr>
+    </table>
+    </div>
+
+    <footer>
+        &copy; 2023 Sarah Azizah. All rights reserved.
+    </footer>
+
+</body>
+</html>
+
+
+
+

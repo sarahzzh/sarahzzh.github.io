@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-f1FHz72EJtBFyPivfSMHvLFp6LQl6tsjAzktbI5vrykayRVl5J32N5sOFbFc30bq" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <script>
+        // Ambil elemen ikon hati
+        var likeButton = document.getElementById("likeButton");
+
+        // Tambahkan event listener untuk menangani klik
+        likeButton.addEventListener("click", function() {
+            // Toggle kelas 'liked' untuk mengganti warna ikon
+            likeButton.classList.toggle("liked");
+        });
+    </script>
+
+    <header>
+
+       <input type="checkbox" name="" id="toggler">
+       <label for="toggler" class="fas fa-bars"></label> 
+
+        <a href="#" class="logo">flower<span>.</span></a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#products">products</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-user"></a>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Fresh Flowers</h3>
+            <span> natural & beautiful flowers</span>
+            <p>Discover the beauty of fresh flowers for every special moment</p>
+            <a href="product.html" class="btn">shop now</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+
+        <h1 class="heading"> <span> about </span> us</h1>
+
+        <div class="row">
+
+            <div class="video-container">
+                <video src="image/vid1.mp4" loop autoplay muted></video>
+                <h3>best flower sellers</h3>
+            </div>
+
+            <div class="content">
+                <h3>why choose us?</h3>
+                <p>Our commitment to quality ensures that each flower in our buckets is handpicked at the peak of freshness, providing you with vibrant and long-lasting arrangements.</p>
+                <p> Shop with confidence through our secure e-commerce platform. Your transactions are protected, providing a seamless and worry-free shopping experience.</p>
+                <a href="contactus.html" class="btn">learn more</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="icons-container">
+
+        <div class="icons">
+            <img src="image/fast-delivery.png" alt="">
+            <div class="info">
+                <h3>free delivery</h3>
+                <span>on all orders</span>
+            </div>
+        </div>
+
+        <div class="icons">
+            <img src="image/save-money.png" alt="">
+            <div class="info">
+                <h3>10 days returns</h3>
+                <span>moneyback guarantee</span>
+            </div>
+        </div>
+
+        <div class="icons">
+            <img src="image/email.png" alt="">
+            <div class="info">
+                <h3>offer & gifts</h3>
+                <span>on all orders</span>
+            </div>
+        </div>
+
+        <div class="icons">
+            <img src="image/save-money.png" alt="">
+            <div class="info">
+                <h3>secure payment</h3>
+                <span>protected by paypal</span>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="products" id="products">
+
+        <h1 class="heading"> latest <span>products</span></h1>
+
+        <div class="box-container">
+
+        <div class="box">
+            <span class="discount">-10%</span>
+        <div class="image">
+            <img src="image/bunga1.jpeg" alt="">
+            <div class="icons">
+                <a id="likeButton" class="fas fa-heart"></a>
+                <a href="#" class="cart-btn">add to cart</a>
+                <a href="#" class="fas fa-share"></a>
+            </div>
+        </div>
+        <div class="content">
+            <h3>flower pot</h3>
+            <div class="price">Rp.50.000 <span>Rp.55.000</span></div>
+        </div>
+    </div>
+    <div class="box">
+        <span class="discount">-15%</span>
+        <div class="image">
+            <img src="image/bunga2.jpeg" alt="">
+            <div class="icons">
+                <a id="likeButton" class="fas fa-heart"></a>
+                <a href="#" class="cart-btn">add to cart</a>
+                <a href="#" class="fas fa-share"></a>
+            </div>
+        </div>
+        <div class="content">
+            <h3>flower pot</h3>
+            <div class="price">Rp.60.000 <span>Rp.65.000</span></div>
+        </div>
+        </div>
+        <div class="box">
+        <span class="discount">-5%</span>
+        <div class="image">
+            <img src="image/bunga3.jpeg" alt="">
+            <div class="icons">
+                <a id="likeButton" class="fas fa-heart"></a>
+                <a href="#" class="cart-btn">add to cart</a>
+                <a href="#" class="fas fa-share"></a>
+            </div>
+        </div>
+        <div class="content">
+            <h3>flower pot</h3>
+            <div class="price">Rp.70.000 <span>Rp.75.000</span></div>
+        </div>
+        </div>
+
+        <div class="box">
+        <span class="discount">-20%</span>
+        <div class="image">
+            <img src="image/bunga4.jpeg" alt="">
+            <div class="icons">
+                <a id="likeButton" class="fas fa-heart"></a>
+                <a href="#" class="cart-btn">add to cart</a>
+                <a href="#" class="fas fa-share"></a>
+            </div>
+        </div>
+        <div class="content">
+            <h3>flower pot</h3>
+            <div class="price">Rp.50.000 <span>Rp.55.000</span></div>
+        </div>
+        </div>
+
+        <div class="box">
+        <span class="discount">-15%</span>
+        <div class="image">
+            <img src="image/bunga5.jpeg" alt="">
+            <div class="icons">
+                <a id="likeButton" class="fas fa-heart"></a>
+                <a href="#" class="cart-btn">add to cart</a>
+                <a href="#" class="fas fa-share"></a>
+            </div>
+        </div>
+        <div class="content">
+            <h3>flower pot</h3>
+            <div class="price">Rp.40.000 <span>Rp.55.000</span></div>
+        </div>
+    </div>
+
+    <div class="box">
+        <span class="discount">-18%</span>
+        <div class="image">
+            <img src="image/bunga6.jpeg" alt="">
+            <div class="icons">
+                <a id="likeButton" class="fas fa-heart"></a>
+                <a href="#" class="cart-btn">add to cart</a>
+                <a href="#" class="fas fa-share"></a>
+            </div>
+        </div>
+        <div class="content">
+            <h3>flower pot</h3>
+            <div class="price">Rp.30.000 <span>Rp.45.000</span></div>
+        </div>
+    </div>
+
+    <div class="box">
+        <span class="discount">-12%</span>
+        <div class="image">
+            <img src="image/bunga7.jpeg" alt="">
+            <div class="icons">
+                <a id="likeButton" class="fas fa-heart"></a>
+                <a href="#" class="cart-btn">add to cart</a>
+                <a href="#" class="fas fa-share"></a>
+            </div>
+        </div>
+        <div class="content">
+            <h3>flower pot</h3>
+            <div class="price">Rp.50.000 <span>Rp.55.000</span></div>
+        </div>
+
+    </div>
+
+    <div class="box">
+        <span class="discount">-7%</span>
+        <div class="image">
+            <img src="image/bunga8.jpeg" alt="">
+            <div class="icons">
+                <a id="likeButton" class="fas fa-heart"></a>
+                <a href="#" class="cart-btn">add to cart</a>
+                <a href="#" class="fas fa-share"></a>
+            </div>
+        </div>
+        <div class="content">
+            <h3>flower pot</h3>
+            <div class="price">Rp.50.000 <span>Rp.55.000</span></div>
+        </div>
+    </div>
+
+    <div class="box">
+        <span class="discount">-12%</span>
+        <div class="image">
+            <img src="image/bunga9.jpeg" alt="">
+            <div class="icons">
+                <a id="likeButton" class="fas fa-heart"></a>
+                <a href="#" class="cart-btn">add to cart</a>
+                <a href="#" class="fas fa-share"></a>
+            </div>
+        </div>
+        <div class="content">
+            <h3>flower pot</h3>
+            <div class="price">Rp.50.000 <span>Rp.55.000</span></div>
+        </div>
+    </div>
+
+        </div>
+
+    </section>
+
+    <section class="review" id="review">
+        <h1 class="heading">costumer's <span>review</span></h1>
+
+        <div class="box-container"></div>
+        <div class="box">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Kami sangat terkesan dengan pengalaman belanja bunga di sini! Kualitas dan keindahan bunga yang kami terima melebihi harapan kami. Bunga-bunga segar dan berwarna, ditata dengan penuh keahlian oleh para ahli florist mereka. Pelayanan pelanggan yang ramah dan responsif membuat proses pemesanan menjadi sangat mudah dan menyenangkan.</p>
+            <div class="user">
+                <img src="image/card1.jpg" alt="">
+                <div class="user-info">
+                    <h3>euna Tamara</h3>
+                    <span>Happy Costumer</span>
+                </div>
+            </div>
+
+            <span class="fas fa-quote-right"></span>
+        </div>
+
+        <div class="box">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Kami pasti akan merekomendasikan layanan bunga ini kepada teman-teman dan keluarga kami. Terima kasih atas pengalaman belanja bunga yang luar biasa!</p>
+            <div class="user">
+                <img src="image/card2.jpg" alt="">
+                <div class="user-info">
+                    <h3>Dirgantara</h3>
+                    <span>Happy Costumer</span>
+                </div>
+            </div>
+
+            <span class="fas fa-quote-right"></span>
+        </div>
+
+        <div class="box">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>pengiriman tepat waktu dan aman membuat setiap momen berharga. Kami merasa dihargai sebagai pelanggan dan sangat puas dengan perhatian terhadap detail dari tim mereka.</p>
+            <div class="user">
+                <img src="image/card3.jpg" alt="">
+                <div class="user-info">
+                    <h3>Jisung</h3>
+                    <span>Happy Costumer</span>
+                </div>
+            </div>
+
+            <span class="fas fa-quote-right"></span>
+        </div>
+
+    </section>
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading"> <span> Contact</span> us</h1>
+
+        <div class="row">
+
+            <form action="">
+                <input type="text" placeholder="Name" class="box">
+                <input type="email" placeholder="Email" class="box">
+                <input type="number" placeholder="number" class="box">
+                <textarea name="" class="box" placeholder="Message" id="" cols="30" rows="10"></textarea>
+                <a href="https://asia.ac.id/" class="btn">send message</a>
+
+            </form>
+
+            <div class="image">
+                <img src="image/contact.avif" alt="">
+            </div>
+        </div>
+
+    </section>
+
+    <section class="footer">
+
+        <div class="box-container">
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="#">home</a>
+                <a href="#">about</a>
+                <a href="#">products</a>
+                <a href="#">review</a>
+                <a href="#">contact</a>
+            </div>
+
+            <div class="box">
+                <h3>extra Link</h3>
+                <a href="#">my account</a>
+                <a href="fromtransaksi.html">my order</a>
+                <a href="#">my favorite</a>
+            </div>
+
+            <div class="box">
+                <h3>location</h3>
+                <a href="https://maps.app.goo.gl/qpfxcehFnQTJRAdDA">Malang</a>
+                <a href="https://maps.app.goo.gl/1c4K5MB2QVU1WLtA7">Batu</a>
+                <a href="https://maps.app.goo.gl/LCwX93SMNdcPEMR69">Blitar</a>
+                <a href="https://maps.app.goo.gl/APwy54979BDmKyfq9">Kediri</a>
+                <a href="https://maps.app.goo.gl/Y5hg93iAvVs4QkSA6">Surabaya</a>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#">1234654677885</a>
+                <a href="#">flowere@example.com</a>
+                <a href="#">@flowersss</a>
+                <img src="image/payment.jpg" alt="">
+            </div>
+
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="#">home</a>
+                <a href="#">about</a>
+                <a href="#">products</a>
+                <a href="#">review</a>
+                <a href="#">contact</a>
+            </div>
+        </div>
+
+        <div class="credit">created by <span>sarah azizah</span> | all right reserved</div>
+    </section>
+</body>
+</html>
